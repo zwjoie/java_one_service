@@ -12,4 +12,9 @@ public class TestController {
         return "hello "+name;
     }
 
+    @GetMapping("/hhh")
+    public  String hh(){
+        return "哈麻皮好多！！！";
+    }
+
 }
